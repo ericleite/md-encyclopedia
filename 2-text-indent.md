@@ -6,7 +6,7 @@ The text-indent property is used to change the style of text blocks by adding a 
 
 ## Syntax
 
-A example of CSS syntax is below:
+An example of CSS syntax is below:
 
 ```
 text-indent: <length | percentage> && hanging? && each-line?;
@@ -14,16 +14,16 @@ text-indent: <length | percentage> && hanging? && each-line?;
 
 ### Values
 
-#### <length>
+#### `<length>`
 Indentation is specified as an absolute length. Negative values are allowed. Possible units include `px`, `mm`, `q`, `cm`, `in`, `pt` or `pc`.
 
-#### <percentage>
+#### `<percentage>`
 Indentation is a percentage of the containing block width. Possible units include `%`.
 
-#### each-line
+#### `each-line`
 Indentation affects the first line of the block container as well as each line after a forced line break, but does not affect lines after a soft wrap break.
 
-#### hanging
+#### `hanging`
 All lines except the first line will be indented.
 
 ## Example 1

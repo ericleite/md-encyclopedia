@@ -6,7 +6,7 @@ The border-left-color property is used to change the color of an element's left 
 
 ## Syntax
 
-A example of CSS syntax is below:
+An example of CSS syntax is below:
 
 ```
 border-left-color: <rgb()> | <rgba()> | <hsl()> | <hsla()> | <hex-color> | <named-color> | currentColor | <deprecated-system-color>;
@@ -14,10 +14,10 @@ border-left-color: <rgb()> | <rgba()> | <hsl()> | <hsla()> | <hex-color> | <name
 
 ### Values
 
-#### <color>
+#### `<color>`
 Is the CSS color of the border.
 
-#### inherit
+#### `inherit`
 Is a keyword denoting the color of the parent element's bottom border.
 
 ## Example 1
