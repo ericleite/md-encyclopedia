@@ -1,8 +1,8 @@
-# border-left-color
+# border-right-color
 
-A CSS property that specifies the color of the left border.
+A CSS property that specifies the color of the right border of an element.
 
-The border-left-color property is used to change the color of an element's left border.
+The border-right-color property is used to change the color of the right border of an element.
 
 ## Syntax
 
@@ -22,18 +22,18 @@ A keyword denoting the color of the parent element's bottom border.
 
 ## Example 1
 
-This will set the left border color to the CSS red color.
+This will set the right border color to the CSS red color.
 
 ```
-border-left-color: red;
+border-right-color: red;
 ```
 
 ## Example 2
 
-This will set the left border color to the CSS black color with 80% opacity.
+This will set the right border color to the CSS black color with 80% opacity.
 
 ```
-border-left-color: rgba(0,0,0,0.8);
+border-right-color: rgba(0,0,0,0.8);
 ```
 
 ## Browser Support

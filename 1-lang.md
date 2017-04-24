@@ -1,53 +1,26 @@
-# text-indent
+# lang
 
-A CSS property that specifies the amount of indented space in a text block.
-
-The text-indent property is used to change the style of text blocks by adding a specified amount of space before the first line of a paragraph of text. It results in an effect similar to most printed text where the first line of a paragraph is shifted to the right by a certain amount. The behavior can be changed from first-line paragraph indentation (default) to a hanging indent, or an "each-line" indent.
+This is a global HTML attribute, meaning it can be used with any HTML element, that defines the language used inside the element.
 
 ## Syntax
 
-An example of CSS syntax is below:
+An example of the HTML syntax is as follows:
 
-```
-text-indent: <length | percentage> && hanging? && each-line?;
+```html
+<html lang="en-US"></html>
 ```
 
 ### Values
 
-#### `<length>`
-Indentation is specified as an absolute length. Negative values are allowed. Possible units include `px`, `mm`, `q`, `cm`, `in`, `pt` or `pc`.
-
-#### `<percentage>`
-Indentation is a percentage of the containing block width. Possible units include `%`.
-
-#### `each-line`
-Indentation affects the first line of the block container as well as each line after a forced line break, but does not affect lines after a soft wrap break.
-
-#### `hanging`
-All lines except the first line will be indented.
+#### `<tag>`
+A tag represents the language to be used, and is in the format defined in the Tags for the [Identifying Languages (BCP47) IETF](http://www.ietf.org/rfc/bcp/bcp47.txt) document.
 
 ## Example 1
 
-This will indent the first line of a text block with 20px of white space.
+This sets the intended language of an anchor tag to Spanish:
 
-```
-text-indent: 20px;
-```
-
-## Example 2
-
-This will indent the first line of a text block with white space that is 5% of the width of the bounding block.
-
-```
-text-indent: 5%;
-```
-
-## Example 3
-
-This will indent every line but the first line of a text block with white space that is 10% of the width of the bounding block.
-
-```
-text-indent: 10% hanging;
+```html
+<a href="http://google.com" lang="es"></a>
 ```
 
 ## Browser Support
@@ -56,14 +29,10 @@ text-indent: 10% hanging;
 
 | Feature | FF | Chrome | Edge | IE | Opera | Safari |
 |---------------|------------|------------|------------|------------|------------|------------|
-| Basic Support | 1.0 | 1.0 | Yes | 3.0 | 3.5 | 1.0 |
-| hanging | No support | No support | No support | No support | No support | No support |
-| each-line | No support | No support | No support | No support | No support | No support |
+| Basic Support | Yes | Yes | Yes | Yes | Yes | Yes |
 
 ### Mobile
 
 | Feature | FF Mobile | Android | Edge | IE Phone | Opera Mobile | Safari Mobile |
 |---------------|------------|------------|------|------------|--------------|---------------|
-| Basic Support | 1.0 | ? | Yes | ? | ? | ? |
-| hanging | No support | No support | ? | No support | No support | No support |
-| each-line | No support | No support | ? | No support | No support | No support |
+| Basic Support | Yes | Yes | Yes | Yes | Yes | Yes |
